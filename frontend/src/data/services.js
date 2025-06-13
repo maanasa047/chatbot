@@ -1,0 +1,88 @@
+const services = [
+  {
+    id: 1,
+    name: 'Aadhaar Card',
+    documents: ['Proof of Identity', 'Proof of Address', 'Birth Certificate'],
+    eligibility: 'Resident of India with valid proof',
+    link: 'https://uidai.gov.in',
+  },
+  {
+    id: 2,
+    name: 'PAN Card',
+    documents: ['Proof of Identity', 'Date of Birth proof', 'Photograph'],
+    eligibility: 'Any Indian citizen or taxpayer',
+    link: 'https://www.incometax.gov.in/iec/foportal',
+  },
+  {
+    id: 3,
+    name: 'Passport',
+    documents: ['Aadhaar', 'Utility Bill', 'Birth Certificate'],
+    eligibility: 'Citizen of India',
+    link: 'https://passportindia.gov.in',
+  },
+  {
+    id: 4,
+    name: 'Driving Licence',
+    documents: ['Passport size photo', 'Address proof', 'Age-Proof'],
+    eligibility: 'Indian Citizen equal or above 18',
+    link: 'https://parivahan.gov.in/parivahan/',
+  },
+  {
+    id: 5,
+    name: 'Birth Certificate',
+    documents: ['Proof of Birth from Hospital', 'Parents ID Proofs', 'Parents Marriage Certificate'],
+    eligibility: 'Births must be registered within 21 days',
+    link: 'https://www.ghmc.gov.in/Birth.aspx',
+  },
+  {
+    id: 6,
+    name: 'VoterID',
+    documents: ['Passport Photo', 'Address Proof', 'Age Proof', 'Identity Proof'],
+    eligibility: 'Indian citizen who is 18 years or older',
+    link: 'https://voters.eci.gov.in/',
+  },
+  {
+    id: 7,
+    name: 'Ration Card',
+    documents: ['Application Form', 'Address Proof', 'Identity Proof', 'Passport Photo'],
+    eligibility: 'Annual income less than 3 Lakhs',
+    link: 'https://epds.telangana.gov.in/FoodSecurityAct/',
+  },
+  {
+    id: 8,
+    name: 'Marriage Certificate',
+    documents: ['Age Proof', 'Address Proof', 'Wedding Invitation (if available)'],
+    eligibility: 'Bride 18+, Groom 21+, mutual consent required',
+    link: 'https://registration.telangana.gov.in/marriageRegistration.htm',
+  },
+  {
+    id: 9,
+    name: 'Death Certificate',
+    documents: ['Application Form', 'Proof of Birth', 'Ration Card Copy', 'Medical Certificate'],
+    eligibility: 'Death must be reported within 21 days',
+    link: 'https://ts.meeseva.telangana.gov.in/meeseva/',
+  },
+  {
+    id: 10,
+    name: 'Income Certificate',
+    documents: ['ID Proof', 'Address Proof', 'Proof of Income', 'Passport Photo', 'Affidavit'],
+    eligibility: 'Resident of area and income proof',
+    link: 'https://ts.meeseva.telangana.gov.in/meeseva/home.htm',
+  },
+  {
+    id: 11,
+    name: 'EPFO',
+    documents: ['Aadhaar Card', 'GST Certificate', 'Leased Agreement', 'License Proof'],
+    eligibility: 'Employee in org with 20+ staff, salary ≤ ₹15,000',
+    link: 'https://www.epfindia.gov.in/site_en/index.php',
+  },
+  {
+    id: 12,
+    name: 'ESIC',
+    documents: ['GST Certificate', 'Leased Agreement', 'License Proof', 'Employee Details'],
+    eligibility: 'Employee earning up to ₹21,000/month under ESI Act',
+    link: 'https://esicstaging.esic.in/ESICInsurance1/ESICInsurancePortal/Signup.aspx',
+  },
+];
+
+export default services;
